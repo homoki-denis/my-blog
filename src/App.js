@@ -2,6 +2,7 @@ import "./styles/app.scss";
 import * as React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 import ArticleStartCoding from "./routes/articlePages/ArticleStartCoding";
 import ArticleImprovingWeb from "./routes/articlePages/ArticleImprovingWeb";
 import ArticleMyFirstGf from "./routes/articlePages/ArticleFirstGf";
@@ -11,6 +12,8 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Navbar />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="how-i-started-coding" element={<ArticleStartCoding />} />
