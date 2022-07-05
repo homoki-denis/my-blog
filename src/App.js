@@ -1,15 +1,24 @@
 import "./styles/app.scss";
 import * as React from "react";
-import Navbar from "./components/Nacbar";
-import MainContent from "./components/MainContent";
-import Articles from "./components/Articles";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import ArticleStartCoding from "./routes/articlePages/ArticleStartCoding";
+import ArticleImprovingWeb from "./routes/articlePages/ArticleImprovingWeb";
+import ArticleMyFirstGf from "./routes/articlePages/ArticleFirstGf";
+import ArticleMyColleagues from "./routes/articlePages/ArticleMyColleagues";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <MainContent />
-      <Articles />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="how-i-started-coding" element={<ArticleStartCoding />} />
+          <Route path="improving-the-web" element={<ArticleImprovingWeb />} />
+          <Route path="my-first-gf" element={<ArticleMyFirstGf />} />
+          <Route path="my-colleagues" element={<ArticleMyColleagues />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
