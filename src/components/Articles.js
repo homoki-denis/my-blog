@@ -6,7 +6,8 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { CardActionArea } from "@mui/material";
 import { Link } from "react-router-dom";
-import { Avatar } from "@mui/material";
+import Avatar from "@mui/material/Avatar";
+import logo from "../images/1.png";
 
 const Articles = function () {
   return (
@@ -44,7 +45,7 @@ const Articles = function () {
                     </Typography>
                     <div className="card-footer">
                       <div className="card-avatar">
-                        <Avatar alt="Homoki Denis" src="./images/1.png" />
+                        <Avatar alt="Homoki Denis" src={logo} />
                         <p>Denis</p>
                       </div>
 
@@ -77,7 +78,7 @@ const Articles = function () {
                     </Typography>
                     <div className="card-footer">
                       <div className="card-avatar">
-                        <Avatar alt="Homoki Denis" src="./images/1.png" />
+                        <Avatar alt="Homoki Denis" src={logo} />
                         <p>Denis</p>
                       </div>
 
@@ -110,7 +111,7 @@ const Articles = function () {
                     </Typography>
                     <div className="card-footer">
                       <div className="card-avatar">
-                        <Avatar alt="Homoki Denis" src="./images/1.png" />
+                        <Avatar alt="Homoki Denis" src={logo} />
                         <p>Denis</p>
                       </div>
 
@@ -143,7 +144,7 @@ const Articles = function () {
                     </Typography>
                     <div className="card-footer">
                       <div className="card-avatar">
-                        <Avatar alt="Homoki Denis" src="./images/1.png" />
+                        <Avatar alt="Homoki Denis" src={logo} />
                         <p>Denis</p>
                       </div>
 
