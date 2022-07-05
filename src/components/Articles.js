@@ -26,7 +26,7 @@ const Articles = function () {
         <Grid container spacing={3} sx={{ mb: 2 }}>
           <Grid item md={4} sm={6} xs={12}>
             <Link className="link" to="/how-i-started-coding">
-              <Card sx={{ maxWidth: 500 }}>
+              <Card sx={{ maxWidth: 500, maxHeight: 500 }}>
                 <CardActionArea>
                   <CardMedia
                     component="img"
@@ -36,12 +36,13 @@ const Articles = function () {
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                      How I started coding?
+                      How I started to code?
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Molestias tempora, est saepe quod maiores sed quae iste.
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Well, it was kind of difficult. I started learning HTML
+                      and at that time, I was so frustrated because I thought it
+                      was so hard to learn for the first time. But I kept
+                      working on myself and improving...
                     </Typography>
                     <div className="card-footer">
                       <div className="card-avatar">
