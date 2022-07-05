@@ -1,0 +1,22 @@
+.link {
+  text-decoration: none;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+  .card-avatar {
+    display: flex;
+    align-items: center;
+    p {
+      padding-left: 0.4rem;
+      font-weight: 900;
+    }
+  }
+
+  .card-time {
+    font-weight: 900;
+  }
+}

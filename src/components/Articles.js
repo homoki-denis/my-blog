@@ -6,6 +6,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { CardActionArea } from "@mui/material";
 import { Link } from "react-router-dom";
+import { Avatar } from "@mui/material";
 
 const Articles = function () {
   return (
@@ -23,7 +24,7 @@ const Articles = function () {
 
         <Grid container spacing={3} sx={{ mb: 2 }}>
           <Grid item md={4} sm={6} xs={12}>
-            <Link to="/how-i-started-coding">
+            <Link className="link" to="/how-i-started-coding">
               <Card sx={{ maxWidth: 500 }}>
                 <CardActionArea>
                   <CardMedia
@@ -41,6 +42,14 @@ const Articles = function () {
                       Molestias tempora, est saepe quod maiores sed quae iste.
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </Typography>
+                    <div className="card-footer">
+                      <div className="card-avatar">
+                        <Avatar alt="Homoki Denis" src="./images/1.png" />
+                        <p>Denis</p>
+                      </div>
+
+                      <div className="card-time">2022.05.07</div>
+                    </div>
                   </CardContent>
                 </CardActionArea>
               </Card>
@@ -48,7 +57,7 @@ const Articles = function () {
           </Grid>
 
           <Grid item md={4} sm={6} xs={12}>
-            <Link to="/improving-the-web">
+            <Link className="link" to="/improving-the-web">
               <Card sx={{ maxWidth: 500 }}>
                 <CardActionArea>
                   <CardMedia
@@ -66,6 +75,14 @@ const Articles = function () {
                       Molestias tempora, est saepe quod maiores sed quae iste.
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </Typography>
+                    <div className="card-footer">
+                      <div className="card-avatar">
+                        <Avatar alt="Homoki Denis" src="./images/1.png" />
+                        <p>Denis</p>
+                      </div>
+
+                      <div className="card-time">2022.05.07</div>
+                    </div>
                   </CardContent>
                 </CardActionArea>
               </Card>
@@ -73,7 +90,7 @@ const Articles = function () {
           </Grid>
 
           <Grid item md={4} sm={6} xs={12}>
-            <Link to="/my-first-gf">
+            <Link className="link" to="/my-first-gf">
               <Card sx={{ maxWidth: 500 }}>
                 <CardActionArea>
                   <CardMedia
@@ -91,6 +108,14 @@ const Articles = function () {
                       Molestias tempora, est saepe quod maiores sed quae iste.
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </Typography>
+                    <div className="card-footer">
+                      <div className="card-avatar">
+                        <Avatar alt="Homoki Denis" src="./images/1.png" />
+                        <p>Denis</p>
+                      </div>
+
+                      <div className="card-time">2022.05.07</div>
+                    </div>
                   </CardContent>
                 </CardActionArea>
               </Card>
@@ -98,7 +123,7 @@ const Articles = function () {
           </Grid>
 
           <Grid item md={4} sm={6} xs={12}>
-            <Link to="/my-colleagues">
+            <Link className="link" to="/my-colleagues">
               <Card sx={{ maxWidth: 500 }}>
                 <CardActionArea>
                   <CardMedia
@@ -116,6 +141,14 @@ const Articles = function () {
                       Molestias tempora, est saepe quod maiores sed quae iste.
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </Typography>
+                    <div className="card-footer">
+                      <div className="card-avatar">
+                        <Avatar alt="Homoki Denis" src="./images/1.png" />
+                        <p>Denis</p>
+                      </div>
+
+                      <div className="card-time">2022.05.07</div>
+                    </div>
                   </CardContent>
                 </CardActionArea>
               </Card>
