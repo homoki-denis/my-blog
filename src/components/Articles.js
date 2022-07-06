@@ -73,9 +73,10 @@ const Articles = function () {
                       Improving the web since 2021
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Molestias tempora, est saepe quod maiores sed quae iste.
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      As i said in the last article, I took a break from
+                      programming and came back a year later with high hopes and
+                      determination. 😎 And then start learning on my own. It
+                      was fun, I was on my own pace...
                     </Typography>
                     <div className="card-footer">
                       <div className="card-avatar">
