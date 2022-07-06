@@ -25,18 +25,19 @@
 
 .gif {
   margin: 2rem 0;
+  max-width: 100%;
+  height: auto;
 }
 
 // Coding article
-.article-center {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+.article {
   padding: 3rem 0 0 0;
 }
 
-.article-footer {
-  display: flex;
-  min-width: 67%;
+// Improving article
+
+ul {
+  li {
+    margin: 1rem 0;
+  }
 }

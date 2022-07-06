@@ -7,3 +7,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+a {
+  color: #784bbf;
+}
+
+pre {
+  background-color: #373737;
+  color: #fff;
+
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 2rem;
+  code {
+    font-size: 1.2rem;
+  }
+}

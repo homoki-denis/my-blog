@@ -70,7 +70,7 @@ const Articles = function () {
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                      Improving the web since 2022
+                      Improving the web since 2021
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.

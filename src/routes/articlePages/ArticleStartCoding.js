@@ -4,8 +4,8 @@ import logo from "../../images/1.png";
 
 const ArticleStartCoding = function () {
   return (
-    <Container maxWidth="xl" className="article-coding">
-      <div className="article-coding article-center">
+    <Container maxWidth="md">
+      <div className="article">
         <CardMedia
           component="img"
           height="400"
@@ -23,12 +23,12 @@ const ArticleStartCoding = function () {
         </div>
 
         <Typography
-          variant="h2"
+          variant="h4"
           component="div"
           className="cards-heading"
           sx={{ fontWeight: "bold" }}
         >
-          How I started to code?
+          How I Started To Code?
         </Typography>
 
         <Typography variant="h5" gutterBottom component="div">
