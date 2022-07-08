@@ -104,12 +104,12 @@ const Articles = function () {
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                      My first GF omg
+                      My First GF Omg
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Molestias tempora, est saepe quod maiores sed quae iste.
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      It was a strange year for me. I start programming again
+                      and even finish college. It was really tough, but in the
+                      end it was rewarding nonetheless. Well I fell...
                     </Typography>
                     <div className="card-footer">
                       <div className="card-avatar">
