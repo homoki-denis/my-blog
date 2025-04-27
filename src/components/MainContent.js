@@ -6,7 +6,7 @@ const MainContent = function () {
     <div className="main-content">
       <Box className="main">
         <Typography variant="h2" component="div" className="main-heading">
-          Homoki's Blog
+          My Blog
         </Typography>
       </Box>
     </div>

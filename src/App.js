@@ -5,8 +5,9 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import ArticleStartCoding from "./routes/articlePages/ArticleStartCoding";
 import ArticleImprovingWeb from "./routes/articlePages/ArticleImprovingWeb";
-import ArticleMyFirstGf from "./routes/articlePages/ArticleFirstGf";
 import ArticleMyColleagues from "./routes/articlePages/ArticleMyColleagues";
+import ArticleCollectionsDapps from "./routes/articlePages/ArticleCollectionsDapps";
+import ArticleTypescript from "./routes/articlePages/ArticleTypescript";
 
 function App() {
   return (
@@ -18,8 +19,16 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="how-i-started-coding" element={<ArticleStartCoding />} />
           <Route path="improving-the-web" element={<ArticleImprovingWeb />} />
-          <Route path="my-first-gf" element={<ArticleMyFirstGf />} />
           <Route path="my-colleagues" element={<ArticleMyColleagues />} />
+          <Route
+            path="collections-dapps"
+            element={<ArticleCollectionsDapps />}
+          />
+          <Route
+            path="collections-dapps"
+            element={<ArticleCollectionsDapps />}
+          />
+          <Route path="typescript" element={<ArticleTypescript />} />
         </Routes>
       </BrowserRouter>
     </div>

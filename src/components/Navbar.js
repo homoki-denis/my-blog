@@ -18,7 +18,7 @@ const Navbar = () => {
                 component="div"
                 sx={{ flexGrow: 1, pl: 1 }}
               >
-                Computerra
+                Homoki Denis
               </Typography>
             </Toolbar>
           </Container>
